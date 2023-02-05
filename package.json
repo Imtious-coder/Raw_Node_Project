@@ -9,6 +9,25 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
     "prettier": "^2.8.3"
-  }
+  },
+  "name": "project_1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imtious-coder/Raw_Node_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imtious-coder/Raw_Node_Project/issues"
+  },
+  "homepage": "https://github.com/Imtious-coder/Raw_Node_Project#readme"
 }
