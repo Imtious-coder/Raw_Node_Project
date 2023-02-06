@@ -9,3 +9,5 @@
 ##### used stringDecoder, created new Object, added data, data posted.
 
 #### Routers created, handled routes, created function to get path, sent data.
+
+#### Fs and Path module used, file created, error handled.
