@@ -7,8 +7,8 @@ const data = require('./lib/data');
 const app = {};
 
 // test
-data.create('test', 'newFile', { name: 'bd' }, (err) => {
-    console.log(err);
+data.read('test', 'newFile', (err, result) => {
+    console.log(err, result);
 });
 
 // configuration
