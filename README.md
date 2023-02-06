@@ -7,3 +7,5 @@
 ##### Creating server, handling request response, getting url from req, parsing url, trimming url, getting method name, getting query, getting headers.
 
 ##### used stringDecoder, created new Object, added data, data posted.
+
+#### Routers created, handled routes, created function to get path, sent data.
