@@ -7,8 +7,11 @@ const data = require('./lib/data');
 const app = {};
 
 // test
-data.read('test', 'newFile', (err, result) => {
-    console.log(err, result);
+// data.update('test', 'newFile', { name: 'England', language: 'english' }, (err) => {
+//     console.log(err);
+// });
+data.update('test', 'newFile', (err) => {
+    console.log(err);
 });
 
 // configuration
